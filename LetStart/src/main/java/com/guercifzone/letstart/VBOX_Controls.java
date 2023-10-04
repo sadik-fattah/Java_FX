@@ -8,7 +8,7 @@ import javafx.scene.text.Text;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
 
-public class Controls  extends Application {
+public class VBOX_Controls extends Application {
     @Override
     public void start(Stage stage){
         stage.initStyle(StageStyle.UNDECORATED);
