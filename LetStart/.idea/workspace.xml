@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4d14ba3d-6077-43da-a79e-c5e7cbb2e421" name="Changes" comment="update code">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/guercifzone/letstart/flowpane/Flowpane_AddButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/guercifzone/letstart/flowpane/Flowpane_Controls.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/guercifzone/letstart/flowpane/Flowpane_Horizontal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/guercifzone/letstart/flowpane/Flowpane_HorizontalGap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/guercifzone/letstart/HBOX_Controls.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/guercifzone/letstart/hbox/HBOX_Controls.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/guercifzone/letstart/HBOX_Grow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/guercifzone/letstart/hbox/HBOX_Grow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/guercifzone/letstart/HBOX_OneControlGrow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/guercifzone/letstart/hbox/HBOX_OneControlGrow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/guercifzone/letstart/HBOX_PaddingSpacing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/guercifzone/letstart/hbox/HBOX_PaddingSpacing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/guercifzone/letstart/HBOX_SetPreferred.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/guercifzone/letstart/hbox/HBOX_SetPreferred.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/guercifzone/letstart/HBOX_SpaceBetweenControls.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/guercifzone/letstart/hbox/HBOX_SpaceBetweenControls.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/guercifzone/letstart/VBOX_AddButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/guercifzone/letstart/vbox/VBOX_AddButton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/guercifzone/letstart/VBOX_Controls.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/guercifzone/letstart/vbox/VBOX_Controls.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/guercifzone/letstart/VBOX_Padding_Spacing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/guercifzone/letstart/vbox/VBOX_Padding_Spacing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/guercifzone/letstart/VBOX_Spacing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/guercifzone/letstart/vbox/VBOX_Spacing.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2WD7trT3q74jg2U4vCbhnqHj1zd" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="com.guercifzone.letstart.flowpane" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.guercifzone.letstart" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.VBOX_HBOX">
+    <configuration name="HBOX_SetPreferred" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.guercifzone.letstart.hbox.HBOX_SetPreferred" />
+      <module name="LetStart" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.guercifzone.letstart.hbox.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VBOX_AddButton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.guercifzone.letstart.vbox.VBOX_AddButton" />
+      <module name="LetStart" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.guercifzone.letstart.hbox.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VBOX_Controls" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.guercifzone.letstart.vbox.VBOX_Controls" />
+      <module name="LetStart" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.guercifzone.letstart.hbox.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VBOX_HBOX" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.guercifzone.letstart.VBOX_HBOX" />
+      <module name="LetStart" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.guercifzone.letstart.hbox.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VBOX_Spacing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.guercifzone.letstart.vbox.VBOX_Spacing" />
+      <module name="LetStart" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.guercifzone.letstart.hbox.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.VBOX_HBOX" />
+        <item itemvalue="Application.VBOX_Controls" />
+        <item itemvalue="Application.VBOX_Spacing" />
+        <item itemvalue="Application.VBOX_AddButton" />
+        <item itemvalue="Application.HBOX_SetPreferred" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4d14ba3d-6077-43da-a79e-c5e7cbb2e421" name="Changes" comment="" />
+      <created>1696255514493</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1696255514493</updated>
+    </task>
+    <task id="LOCAL-00001" summary=" jj">
+      <option name="closed" value="true" />
+      <created>1696432128428</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1696432128428</updated>
+    </task>
+    <task id="LOCAL-00002" summary="update code">
+      <option name="closed" value="true" />
+      <created>1696956339428</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1696956339428</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value=" jj" />
+    <MESSAGE value="update code" />
+    <option name="LAST_COMMIT_MESSAGE" value="update code" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/guercifzone/letstart/hbox/HBOX_OneControlGrow.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/guercifzone/letstart/vbox/VBOX_Controls.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

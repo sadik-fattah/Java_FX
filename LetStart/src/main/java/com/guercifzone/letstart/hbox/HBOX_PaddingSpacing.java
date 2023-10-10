@@ -1,4 +1,4 @@
-package com.guercifzone.letstart;
+package com.guercifzone.letstart.hbox;
 
 import javafx.application.Application;
 import javafx.geometry.Insets;
