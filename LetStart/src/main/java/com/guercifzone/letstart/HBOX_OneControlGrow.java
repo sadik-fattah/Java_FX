@@ -11,21 +11,21 @@ import javafx.scene.layout.Priority;
 import javafx.scene.paint.Color;
 import javafx.stage.Stage;
 
-public class HBOX_OneControlGrow extends Application {
+public class HBOX_OneControlGrow extends Application{
     @Override
-    public void start(Stage primaryStage) throws Exception {
-        primaryStage.setTitle("");
-        Group root = new Group();
-        Scene scene = new Scene(root, 300, 250, Color.WHITE);
+    public void start(Stage primarystage) throws Exception {
+primarystage.setTitle("One Control Grow");
+Group group = new Group();
+Scene scene = new Scene(group,300,250,Color.WHITE);
 
-        HBox hbox = new HBox();
-        TextField field = new TextField();
-        HBox.setHgrow(field, Priority.ALWAYS);
-        hbox.getChildren().addAll(new Label("Search:"), field, new Button("Go"));
+HBox hBox = new HBox();
+TextField field =new TextField();
+HBox.setHgrow(field,Priority.ALWAYS);
+hBox.getChildren().addAll(new Label("search:"),field,new Button("GO"));
 
-
-        root.getChildren().add(hbox);
-        primaryStage.setScene(scene);
-        primaryStage.show();
+group.getChildren().add(hBox);
+primarystage.setScene(scene);
+primarystage.show();
     }
 }
+

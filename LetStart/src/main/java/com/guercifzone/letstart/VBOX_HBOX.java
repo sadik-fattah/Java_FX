@@ -19,25 +19,27 @@ public class VBOX_HBOX extends Application {
     final HBox hbs[] = new HBox[values.length];
     @Override
     public void start(Stage stage) throws Exception {
-        Group root = new Group();
-        Scene scene = new Scene(root, 300, 150);
+        Group group = new Group();
+        Scene scene = new Scene(group, 300, 150);
         stage.setScene(scene);
-        stage.setTitle("Progress Controls");
+        stage.setTitle("Hbox Vbox");
 
-        for (int i = 0; i < values.length; i++) {
+        for (int i = 0;i<values.length;i++){
             final Label label = labels[i] = new Label();
-            label.setText("progress:" + values[i]);
+            label.setText("progress"+values[i]);
 
-            final ProgressBar pb = pbs[i] = new ProgressBar();
-            pb.setProgress(values[i]);
+            final ProgressBar pg = pbs[i] = new ProgressBar();
+            pg.setProgress(values[i]);
 
             final ProgressIndicator pin = pins[i] = new ProgressIndicator();
             pin.setProgress(values[i]);
-            final HBox hb = hbs[i] = new HBox();
-            hb.setSpacing(5);
-            hb.setAlignment(Pos.CENTER);
-            hb.getChildren().addAll(label, pb, pin);
+
+            final  HBox hb  = hbs[i] =  new HBox();
+           hb.setSpacing(5);
+           hb.setAlignment(Pos.CENTER);
+           hb.getChildren().addAll(label,pg,pin);
         }
+
 
         final VBox vb = new VBox();
         vb.setSpacing(5);

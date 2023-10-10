@@ -13,15 +13,14 @@ import javafx.stage.Stage;
 public class VBOX_AddButton extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception {
-        primaryStage.setTitle("VBox Test");
+        primaryStage.setTitle("VBOX AddButton");
 
         VBox vb = new VBox();
         vb.setPadding(new Insets(10, 50, 50, 50));
         vb.setSpacing(10);
-
-        Label lbl = new Label("VBox");
-        lbl.setFont(Font.font("Amble CN", FontWeight.BOLD, 24));
-        vb.getChildren().add(lbl);
+Label lbl = new Label("VBOX AddButton");
+lbl.setFont(Font.font("Amble CN",FontWeight.BOLD,24));
+vb.getChildren().add(lbl);
 
         Button btn1 = new Button();
         btn1.setText("Button1");

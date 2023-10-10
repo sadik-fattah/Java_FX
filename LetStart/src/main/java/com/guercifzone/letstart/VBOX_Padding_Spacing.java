@@ -21,7 +21,7 @@ public class VBOX_Padding_Spacing extends Application {
         lbl.setFont(Font.font("Amble CN", FontWeight.BOLD, 24));
         vb.getChildren().add(lbl);
 
-        // Buttons
+
         Button btn1 = new Button();
         btn1.setText("Button1");
         vb.getChildren().add(btn1);
@@ -38,7 +38,7 @@ public class VBOX_Padding_Spacing extends Application {
         btn4.setText("Button4");
         vb.getChildren().add(btn4);
 
-        // Adding VBox to the scene
+
         Scene scene = new Scene(vb);
         primaryStage.setScene(scene);
         primaryStage.show();

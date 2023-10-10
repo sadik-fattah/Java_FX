@@ -12,22 +12,22 @@ import javafx.stage.Stage;
 public class HBOX_SetPreferred extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception {
-        primaryStage.setTitle("");
-        Group root = new Group();
-        Scene scene = new Scene(root, 300, 250, Color.WHITE);
+        primaryStage.setTitle("Set Preferred");
+        Group group = new Group();
+        Scene scene = new Scene(group, 300, 250, Color.WHITE);
 
-        HBox hbox = new HBox();
-        Button button1 = new Button("Add               ");
-        Button button2 = new Button("Remove   ");
-        HBox.setHgrow(button1, Priority.ALWAYS);
-        HBox.setHgrow(button2, Priority.ALWAYS);
+        HBox hBox = new HBox();
+Button button1 = new Button("Add        ");
+Button button2 = new Button("Remove   ");
+HBox.setHgrow(button1,Priority.ALWAYS);
+HBox.setHgrow(button2,Priority.ALWAYS);
         button1.setMaxWidth(Double.MAX_VALUE);
         button2.setMaxWidth(Double.MAX_VALUE);
-        hbox.getChildren().addAll(button1, button2);
+        hBox.getChildren().addAll(button1,button2);
 
-        hbox.setPrefWidth(400);
+        hBox.setPrefWidth(400);
 
-        root.getChildren().add(hbox);
+       group.getChildren().add(hBox);
         primaryStage.setScene(scene);
         primaryStage.show();
     }

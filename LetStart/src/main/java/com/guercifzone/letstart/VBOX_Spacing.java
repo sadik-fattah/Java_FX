@@ -10,17 +10,14 @@ import javafx.stage.Stage;
 public class VBOX_Spacing extends Application {
     @Override
     public void start(Stage stage) throws Exception {
-        stage.setTitle("HTML");
+        stage.setTitle("JAVA");
         stage.setWidth(500);
-        stage.setHeight(500);
-        Scene scene = new Scene(new Group());
-
-        VBox vbox = new VBox(8); // spacing = 8
-        vbox.getChildren().addAll(new Button("Cut"), new Button("Copy"), new Button("Paste"));
-
-        scene.setRoot(vbox);
-
-        stage.setScene(scene);
-        stage.show();
+       stage.setHeight(500);
+       Scene scene = new Scene(new Group());
+       VBox vBox = new VBox(8);
+       vBox.getChildren().addAll(new Button("cut"),new Button("Copy"),new Button("Paste"));
+       scene.setRoot(vBox);
+       stage.setScene(scene);
+       stage.show();
     }
 }
