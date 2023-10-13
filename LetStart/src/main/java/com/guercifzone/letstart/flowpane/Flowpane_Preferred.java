@@ -13,7 +13,7 @@ public class Flowpane_Preferred  extends Application {
     }
     @Override
     public void start(Stage primaryStage) throws Exception {
-        primaryStage.setTitle("FlowPane example");
+        primaryStage.setTitle(" Flowpane Preferred");
 
         FlowPane flowPane = new FlowPane();
         flowPane.setPadding(new Insets(10, 10, 10, 10));

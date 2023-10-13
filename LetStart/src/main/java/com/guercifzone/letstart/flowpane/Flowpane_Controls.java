@@ -14,26 +14,23 @@ public class Flowpane_Controls  extends  Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception {
-        primaryStage.setTitle("Flowpane_Controls");
+        primaryStage.setTitle("Flowpane Controls");
 
-        //Adding FlowPane
-        FlowPane flowPane = new FlowPane();
-        flowPane.setPadding(new Insets(10, 10, 10, 10));
-        flowPane.setVgap(4);
+
+        FlowPane flowPane =new FlowPane();
+        flowPane.setPadding(new Insets(10,10,10,10));
         flowPane.setHgap(4);
-
+        flowPane.setVgap(8);
         flowPane.setPrefWrapLength(210);
+       Button btn = new Button();
 
-        Button btn = new Button();
-
-        for (int i = 0; i < 8; i++) {
-
-            btn = new Button("Button");
-            btn.setPrefSize(100, 50);
-            flowPane.getChildren().add(btn);
+        for (int i = 0; i< 8;i++){
+           btn = new Button("Button");
+           btn.setPrefSize(100,50);
+           flowPane.getChildren().add(btn);
         }
         Scene scene = new Scene(flowPane);
-        primaryStage.setScene(scene);
-        primaryStage.show();
+       primaryStage.setScene(scene);
+       primaryStage.show();
     }
 }

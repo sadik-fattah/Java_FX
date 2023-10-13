@@ -29,7 +29,7 @@ public class Flowpane_HorizontalGap extends Application {
 
         Button btn = new Button();
 
-        for (int i = 0; i < 8; i++) {
+        for (int i = 0; i < 4; i++) {
 
             btn = new Button("Button");
             btn.setPrefSize(100, 50);
