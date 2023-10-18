@@ -1,16 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.geometry.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.guercifzone.letstart.HelloController">
-  <padding>
-    <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
-  </padding>
 
-  <Label fx:id="welcomeText" />
-  <Button onAction="#onHelloButtonClick" text="Hello!" />
-
-
-</VBox>
+<BorderPane prefHeight="200.0" prefWidth="381.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.guercifzone.letstart.HelloController">
+   <top>
+      <Button fx:id="btntop" mnemonicParsing="false" onAction="#onclicktop" text="Button top " BorderPane.alignment="CENTER" />
+   </top>
+   <left>
+      <Button fx:id="btnleft" mnemonicParsing="false" onAction="#onclickleft" text="Button left" BorderPane.alignment="CENTER" />
+   </left>
+   <center>
+      <Button fx:id="btncenter" mnemonicParsing="false" onAction="#onclickcenter" text="Button center" BorderPane.alignment="CENTER" />
+   </center>
+   <right>
+      <Button fx:id="btnright" mnemonicParsing="false" onAction="#onclickright" text="Button right" BorderPane.alignment="CENTER" />
+   </right>
+   <bottom>
+      <Button fx:id="btnbuttom" mnemonicParsing="false" onAction="#onclickbuttom" text="Button buttom" BorderPane.alignment="CENTER" />
+   </bottom>
+</BorderPane>

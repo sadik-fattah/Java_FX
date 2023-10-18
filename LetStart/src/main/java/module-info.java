@@ -11,7 +11,9 @@ module com.guercifzone.letstart {
     exports com.guercifzone.letstart.vbox;
     opens com.guercifzone.letstart.vbox to javafx.fxml;
 
-
-    exports com.guercifzone.letstart.flowpane;
+   exports com.guercifzone.letstart.flowpane;
     opens com.guercifzone.letstart.flowpane to javafx.fxml;
+
+    exports com.guercifzone.letstart.Gridpane;
+    opens com.guercifzone.letstart.Gridpane to javafx.fxml;
 }
