@@ -21,50 +21,45 @@ import javafx.stage.Stage;
 public class Gridpane_login extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception {
-        primaryStage.setTitle("JavaFX Welcome");
-        GridPane grid = new GridPane();
-        grid.setAlignment(Pos.CENTER);
-        grid.setHgap(10);
-        grid.setVgap(10);
-        grid.setPadding(new Insets(25, 25, 25, 25));
+primaryStage.setTitle(" login form ");
+GridPane gridPane = new GridPane();
+gridPane.setAlignment(Pos.CENTER);
+gridPane.setVgap(10);
+gridPane.setHgap(10);
+gridPane.setPadding(new Insets(25,25,25,25));
 
-        Text scenetitle = new Text("Welcome");
-        scenetitle.setFont(Font.font("Tahoma", FontWeight.NORMAL, 20));
-        grid.add(scenetitle, 0, 0, 2, 1);
+Text scenceTitle = new Text("welocm");
+    scenceTitle.setFont(Font.font("Tahoma",FontWeight.NORMAL,20));
+    gridPane.add(scenceTitle,0,0,2,1);
 
-        Label userName = new Label("User Name:");
-        grid.add(userName, 0, 1);
+    Label lblUsername = new Label("Username:");
+    gridPane.add(lblUsername,0,1);
+    TextField txtUser = new TextField();
+    gridPane.add(txtUser,1,1);
+    Label lblPWD = new Label("Password:");
+    gridPane.add(lblPWD,0,2);
+    PasswordField pwdField = new PasswordField();
+    gridPane.add(pwdField,1,2);
 
-        TextField userTextField = new TextField();
-        grid.add(userTextField, 1, 1);
+    Button btn = new Button("sing in ");
+    HBox hBox = new HBox(10);
+    hBox.setAlignment(Pos.BOTTOM_RIGHT);
+    hBox.getChildren().add(btn);
 
-        Label pw = new Label("Password:");
-        grid.add(pw, 0, 2);
+    gridPane.add(hBox,1,4);
+    final Text actiontarget = new Text();
+    gridPane.add(actiontarget,1,6);
 
-        PasswordField pwBox = new PasswordField();
-        grid.add(pwBox, 1, 2);
-
-        Button btn = new Button("Sign in");
-        HBox hbBtn = new HBox(10);
-        hbBtn.setAlignment(Pos.BOTTOM_RIGHT);
-        hbBtn.getChildren().add(btn);
-        grid.add(hbBtn, 1, 4);
-
-        final Text actiontarget = new Text();
-        grid.add(actiontarget, 1, 6);
-
-        btn.setOnAction(new EventHandler<ActionEvent>() {
-
-            @Override
-            public void handle(ActionEvent e) {
-                actiontarget.setFill(Color.FIREBRICK);
-                actiontarget.setText("Sign in button pressed");
-            }
-        });
-
-        Scene scene = new Scene(grid, 300, 275);
-        primaryStage.setScene(scene);
-        primaryStage.show();
+    btn.setOnAction(new EventHandler<ActionEvent>() {
+        @Override
+        public void handle(ActionEvent actionEvent) {
+            actiontarget.setFill(Color.FIREBRICK);
+            actiontarget.setText("Sing in  Button pressed");
+        }
+    });
+    Scene scene = new Scene(gridPane,300,275);
+    primaryStage.setScene(scene);
+primaryStage.show();
     }
     public static void main(String[] args) {
       Application.launch(args);

@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d14ba3d-6077-43da-a79e-c5e7cbb2e421" name="Changes" comment="update code and change file">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/guercifzone/letstart/Gridpane/Gridpane_login.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/guercifzone/letstart/Gridpane/Gridpane_simple.java" afterDir="false" />
+    <list default="true" id="4d14ba3d-6077-43da-a79e-c5e7cbb2e421" name="Changes" comment="Borderpane and gridpane">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/guercifzone/letstart/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/guercifzone/letstart/HelloApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/guercifzone/letstart/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/guercifzone/letstart/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/guercifzone/letstart/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/guercifzone/letstart/hello-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/guercifzone/letstart/Gridpane/GridPane_DialogLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/guercifzone/letstart/Gridpane/GridPane_DialogLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/guercifzone/letstart/Gridpane/Gridpane_login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/guercifzone/letstart/Gridpane/Gridpane_login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/guercifzone/letstart/Gridpane/Gridpane_simple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/guercifzone/letstart/Gridpane/Gridpane_simple.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +59,7 @@
       <recent name="com.guercifzone.letstart" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GridPane_DialogLogin">
+  <component name="RunManager" selected="Application.Gridpane_login">
     <configuration name="BorderApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.guercifzone.letstart.BorderApplication" />
       <module name="LetStart" />
@@ -130,9 +127,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Gridpane_login" />
         <item itemvalue="Application.GridPane_DialogLogin" />
         <item itemvalue="Application.Gridpane_simple" />
-        <item itemvalue="Application.Gridpane_login" />
         <item itemvalue="Application.HelloApplication" />
         <item itemvalue="Application.BorderApplication" />
       </list>
@@ -179,14 +176,23 @@
       <option name="project" value="LOCAL" />
       <updated>1697216308218</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Borderpane and gridpane">
+      <option name="closed" value="true" />
+      <created>1697635911392</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1697635911392</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value=" jj" />
     <MESSAGE value="update code" />
     <MESSAGE value="update code and change file" />
-    <option name="LAST_COMMIT_MESSAGE" value="update code and change file" />
+    <MESSAGE value="Borderpane and gridpane" />
+    <option name="LAST_COMMIT_MESSAGE" value="Borderpane and gridpane" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -200,6 +206,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/guercifzone/letstart/vbox/VBOX_Controls.java</url>
           <line>13</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/guercifzone/letstart/Gridpane/Gridpane_simple.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

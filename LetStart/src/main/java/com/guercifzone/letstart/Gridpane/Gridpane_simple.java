@@ -12,32 +12,34 @@ import javafx.stage.Stage;
 public class Gridpane_simple extends Application {
 
     public static void main(String[] args) {
-        launch(args);
+       Application.launch(args);
     }
 
     @Override
     public void start(Stage primaryStage) {
-        primaryStage.setTitle("");
-        Group root = new Group();
-        Scene scene = new Scene(root, 400, 300, Color.WHITE);
+primaryStage.setTitle("simple gridepane");
+Group group = new Group();
+Scene scene = new Scene(group,400,300,Color.WHITE);
 
-        GridPane gridpane = new GridPane();
-        ColumnConstraints col1 = new ColumnConstraints();
-        col1.setPercentWidth(25);
-        ColumnConstraints col2 = new ColumnConstraints();
-        col2.setPercentWidth(50);
-        ColumnConstraints col3 = new ColumnConstraints();
-        col3.setPercentWidth(25);
-        gridpane.getColumnConstraints().addAll(col1,col2,col3);
+GridPane gridPane = new GridPane();
 
+ColumnConstraints cct1 = new ColumnConstraints();
+cct1.setPercentWidth(25);
 
-        gridpane.add(new Label("2"), 2, 0);
-        gridpane.add(new Label("1"), 1, 0);
-        gridpane.add(new Label("0"), 0, 0);
+ColumnConstraints cct2 = new ColumnConstraints();
+cct2.setPercentWidth(50);
+ColumnConstraints cct3 = new ColumnConstraints();
+cct3.setPercentWidth(25);
+gridPane.getColumnConstraints().addAll(cct1,cct2,cct3);
 
-        root.getChildren().add(gridpane);
+        gridPane.add(new Label("C"),2,0);
+        gridPane.add(new Label("B"),1,0);
+        gridPane.add(new Label("A"),0,0);
+
+        group.getChildren().add(gridPane);
         primaryStage.setScene(scene);
-
         primaryStage.show();
+
+
     }
 }

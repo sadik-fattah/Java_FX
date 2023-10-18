@@ -17,48 +17,48 @@ import javafx.stage.Stage;
 public class GridPane_DialogLogin extends Application {
 
     public static void main(String[] args) {
-        launch(args);
+       Application.launch(args);
     }
 
     @Override
     public void start(Stage primaryStage) {
-        primaryStage.setTitle("JavaFX 2 Login");
+primaryStage.setTitle("dialog login");
+BorderPane borderPane = new BorderPane();
+borderPane.setPadding(new Insets(10,50,50,50));
 
-        BorderPane bp = new BorderPane();
-        bp.setPadding(new Insets(10, 50, 50, 50));
-
-        HBox hb = new HBox();
-        hb.setPadding(new Insets(20, 20, 20, 30));
-
-        GridPane gridPane = new GridPane();
-        gridPane.setPadding(new Insets(20, 20, 20, 20));
-        gridPane.setHgap(5);
-        gridPane.setVgap(5);
+HBox hBox = new HBox();
+hBox.setPadding(new Insets(20,20,20,30));
 
 
-        Label lblUserName = new Label("Username");
-        final TextField txtUserName = new TextField();
-        Label lblPassword = new Label("Password");
-        final PasswordField pf = new PasswordField();
-        Button btnLogin = new Button("Login");
-        final Label lblMessage = new Label();
+GridPane gridPane = new GridPane();
+gridPane.setPadding(new Insets(20,20,20,20));
+gridPane.setHgap(5);
+gridPane.setVgap(5);
 
-        gridPane.add(lblUserName, 0, 0);
-        gridPane.add(txtUserName, 1, 0);
-        gridPane.add(lblPassword, 0, 1);
-        gridPane.add(pf, 1, 1);
-        gridPane.add(btnLogin, 2, 1);
-        gridPane.add(lblMessage, 1, 2);
+Label lblUser = new Label("Username: ");
+final TextField txtUser = new TextField();
+Label lblpwd = new Label("Password: ");
+final PasswordField txtPWD = new PasswordField();
+Button btnLogin = new Button("Login");
+final Label lblMSG = new Label();
+
+         gridPane.add(lblUser,0,0);
+        gridPane.add(txtUser,1,0);
+        gridPane.add(lblpwd,0,1);
+        gridPane.add(txtPWD,1,1);
+        gridPane.add(btnLogin,2,1);
+        gridPane.add(lblMSG,1,2);
 
         btnLogin.setOnAction(new EventHandler<ActionEvent>() {
-            public void handle(ActionEvent event) {
+            @Override
+            public void handle(ActionEvent actionEvent) {
+
             }
         });
+        borderPane.setTop(hBox);
+        borderPane.setCenter(gridPane);
 
-        bp.setTop(hb);
-        bp.setCenter(gridPane);
-
-        Scene scene = new Scene(bp);
+        Scene scene = new Scene(borderPane);
         primaryStage.setScene(scene);
         primaryStage.show();
     }
