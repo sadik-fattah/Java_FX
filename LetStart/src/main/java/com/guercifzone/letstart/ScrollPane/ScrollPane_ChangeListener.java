@@ -28,17 +28,18 @@ public class ScrollPane_ChangeListener extends Application {
             s1.setContent(rect);
 
             s1.vvalueProperty().addListener(new ChangeListener<Number>() {
-                public void changed(ObservableValue<? extends Number> ov,
-                                    Number old_val, Number new_val) {
-                    System.out.println(new_val.intValue());
+                @Override
+                public void changed(ObservableValue<? extends Number> observableValue, Number number, Number t1) {
+                    System.out.println(t1.intValue());
                 }
             });
             s1.hvalueProperty().addListener(new ChangeListener<Number>() {
-                public void changed(ObservableValue<? extends Number> ov,
-                                    Number old_val, Number new_val) {
-                    System.out.println(new_val.intValue());
+                @Override
+                public void changed(ObservableValue<? extends Number> observableValue, Number number, Number t1) {
+                    System.out.println(t1.intValue());
                 }
             });
+
             group.getChildren().add(s1);
             stage.show();
     }

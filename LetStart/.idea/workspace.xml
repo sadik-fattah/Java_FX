@@ -4,15 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d14ba3d-6077-43da-a79e-c5e7cbb2e421" name="Changes" comment="Scroll pane   example">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/guercifzone/letstart/Accordion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/guercifzone/letstart/Titlepane.java" afterDir="false" />
+    <list default="true" id="4d14ba3d-6077-43da-a79e-c5e7cbb2e421" name="Changes" comment="title_pane  and Accordien">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/guercifzone/letstart/Accordion_tut.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/guercifzone/letstart/Accordion_tut.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/guercifzone/letstart/ScrollPane/ScrollPane_ChangeListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/guercifzone/letstart/ScrollPane/ScrollPane_ChangeListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/guercifzone/letstart/ScrollPane/ScrollPane_fit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/guercifzone/letstart/ScrollPane/ScrollPane_fit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/guercifzone/letstart/ScrollPane/ScrollPane_noborder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/guercifzone/letstart/ScrollPane/ScrollPane_noborder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/guercifzone/letstart/ScrollPane/Scrollpane_example.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/guercifzone/letstart/ScrollPane/Scrollpane_example.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/guercifzone/letstart/Titlepane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/guercifzone/letstart/Titlepane_tut.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -63,7 +70,7 @@
       <recent name="com.guercifzone.letstart" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Accordion_tut">
+  <component name="RunManager" selected="Application.ScrollPane_ChangeListener">
     <configuration name="Accordion_tut" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.guercifzone.letstart.Accordion_tut" />
       <module name="LetStart" />
@@ -116,12 +123,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Titlepane" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.guercifzone.letstart.Titlepane" />
+    <configuration name="Scrollpane_example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.guercifzone.letstart.ScrollPane.Scrollpane_example" />
       <module name="LetStart" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.guercifzone.letstart.*" />
+          <option name="PATTERN" value="com.guercifzone.letstart.ScrollPane.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Accordion_tut" />
-        <item itemvalue="Application.Titlepane" />
         <item itemvalue="Application.ScrollPane_ChangeListener" />
         <item itemvalue="Application.ScrollPane_noborder" />
         <item itemvalue="Application.ScrollPane_fit" />
+        <item itemvalue="Application.Scrollpane_example" />
+        <item itemvalue="Application.Accordion_tut" />
       </list>
     </recent_temporary>
   </component>
@@ -204,7 +211,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697990966695</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="title_pane  and Accordien">
+      <option name="closed" value="true" />
+      <created>1697991977039</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1697991977039</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -214,7 +229,8 @@
     <MESSAGE value="Borderpane and gridpane" />
     <MESSAGE value="Borderpane and gridpane 2" />
     <MESSAGE value="Scroll pane   example" />
-    <option name="LAST_COMMIT_MESSAGE" value="Scroll pane   example" />
+    <MESSAGE value="title_pane  and Accordien" />
+    <option name="LAST_COMMIT_MESSAGE" value="title_pane  and Accordien" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

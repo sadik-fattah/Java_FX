@@ -15,10 +15,10 @@ public class Scrollpane_example extends Application {
         Scene scene = new Scene(group, 500, 200);
         stage.setScene(scene);
 
-        Rectangle rect = new Rectangle(200, 200, Color.RED);
-        ScrollPane s1 = new ScrollPane();
-        s1.setPrefSize(120, 120);
-        s1.setContent(rect);
+Rectangle rectangle = new Rectangle(200,200,Color.RED);
+ScrollPane s1 = new ScrollPane();
+s1.setPrefSize(120,120);
+s1.setContent(rectangle);
 
         group.getChildren().add(s1);
         stage.show();

@@ -4,6 +4,7 @@ import javafx.application.Application;
 import javafx.geometry.Insets;
 import javafx.scene.Group;
 import javafx.scene.Scene;
+import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 import javafx.scene.control.TitledPane;
@@ -12,17 +13,25 @@ import javafx.scene.layout.HBox;
 import javafx.scene.paint.Color;
 import javafx.stage.Stage;
 
-public class Titlepane extends Application {
+public class Titlepane_tut extends Application {
+
+    public Titlepane_tut(String t1, Button btn1) {
+    }
 
     public static void main(String[] args) {
-        launch(args);
+        Application.launch(args);
     }
 
     @Override
-    public void start(Stage stage) {
-        stage.setTitle("TitledPane");
+    public void start(Stage stage){
+        stage.setTitle("Title dPane");
         Scene scene = new Scene(new Group(), 450, 250);
         scene.setFill(Color.GHOSTWHITE);
+
+        TitledPane gridTitlepane = new TitledPane();
+        GridPane gridPane = new GridPane();
+         gridPane.setVgap(4);
+        gridPane.setPadding(new Insets(5,5,5,5));
 
         TitledPane gridTitlePane = new TitledPane();
         GridPane grid = new GridPane();
@@ -38,7 +47,6 @@ public class Titlepane extends Application {
         grid.add(new Label("static value"),1, 3);
         gridTitlePane.setText("Grid");
         gridTitlePane.setContent(grid);
-
 
         HBox hbox = new HBox(10);
         hbox.setPadding(new Insets(20, 0, 0, 20));

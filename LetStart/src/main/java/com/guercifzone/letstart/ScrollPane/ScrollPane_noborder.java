@@ -17,7 +17,7 @@ public class ScrollPane_noborder extends Application {
 
     @Override
     public void start(Stage primaryStage) {
-        primaryStage.setTitle("HTML");
+        primaryStage.setTitle("ScrollPane  noborder");
         primaryStage.setWidth(500);
         primaryStage.setHeight(500);
         Scene scene = new Scene(new Group());
@@ -26,12 +26,10 @@ public class ScrollPane_noborder extends Application {
 
         final WebView browser = new WebView();
         final WebEngine webEngine = browser.getEngine();
-
-
         ScrollPane scrollPane = new ScrollPane();
-        scrollPane.getStyleClass().add("noborder-scroll-pane");
+      scrollPane.getStyleClass().add("noborder-scroll-pane");
         scrollPane.setContent(browser);
-        webEngine.loadContent("<b>asdf</b>");
+        webEngine.loadContent("<b>Guercifzone</b>");
 
 
         vBox.getChildren().addAll(scrollPane);
