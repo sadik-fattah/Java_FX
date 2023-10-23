@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d14ba3d-6077-43da-a79e-c5e7cbb2e421" name="Changes" comment="title_pane  and Accordien">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/guercifzone/letstart/Accordion_tut.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/guercifzone/letstart/Accordion_tut.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/guercifzone/letstart/ScrollPane/ScrollPane_ChangeListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/guercifzone/letstart/ScrollPane/ScrollPane_ChangeListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/guercifzone/letstart/ScrollPane/ScrollPane_fit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/guercifzone/letstart/ScrollPane/ScrollPane_fit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/guercifzone/letstart/ScrollPane/ScrollPane_noborder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/guercifzone/letstart/ScrollPane/ScrollPane_noborder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/guercifzone/letstart/ScrollPane/Scrollpane_example.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/guercifzone/letstart/ScrollPane/Scrollpane_example.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/guercifzone/letstart/Titlepane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/guercifzone/letstart/Titlepane_tut.java" afterDir="false" />
-    </list>
+    <list default="true" id="4d14ba3d-6077-43da-a79e-c5e7cbb2e421" name="Changes" comment="tuterial update" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -219,7 +211,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697991977039</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="tuterial update">
+      <option name="closed" value="true" />
+      <created>1698058439992</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1698058439992</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -230,7 +230,8 @@
     <MESSAGE value="Borderpane and gridpane 2" />
     <MESSAGE value="Scroll pane   example" />
     <MESSAGE value="title_pane  and Accordien" />
-    <option name="LAST_COMMIT_MESSAGE" value="title_pane  and Accordien" />
+    <MESSAGE value="tuterial update" />
+    <option name="LAST_COMMIT_MESSAGE" value="tuterial update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
