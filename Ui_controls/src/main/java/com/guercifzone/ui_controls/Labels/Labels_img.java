@@ -13,17 +13,17 @@ public class Labels_img extends Application {
     @Override
     public void start(Stage stage) throws Exception {
         Scene scene = new Scene(new Group());
-        stage.setTitle("Label Sample");
+        stage.setTitle("Label Image");
         stage.setWidth(400);
         stage.setHeight(180);
-
         HBox hbox = new HBox();
-        Image image = new Image("https://png.pngtree.com/png-vector/20190115/ourmid/pngtree-vector-search-icon-png-image_320926.jpg");
-        Label label1 = new Label("Search");
-        label1.setGraphic(new ImageView(image));
+
+       Image image = new Image("https://png.pngtree.com/png-vector/20190115/ourmid/pngtree-vector-search-icon-png-image_320926.jpg");
+       Label label  = new Label("Search");
+       label.setGraphic(new ImageView(image));
 
         hbox.setSpacing(10);
-        hbox.getChildren().add((label1));
+        hbox.getChildren().add((label));
         ((Group) scene.getRoot()).getChildren().add(hbox);
 
         stage.setScene(scene);

@@ -17,31 +17,28 @@ public class Labels_withButton extends Application {
 
     @Override
     public void start(Stage primaryStage) {
-        Button btn = new Button();
-        final Label lbl = new Label();
 
-        primaryStage.setTitle("Hello World!");
+        Button  btn = new Button();
+        final  Label lbl = new Label();
+        primaryStage.setTitle("Labels button");
 
         lbl.setLayoutX(70);
         lbl.setLayoutY(150);
 
         btn.setLayoutX(100);
         btn.setLayoutY(100);
-        btn.setText("Hello, World!");
+        btn.setText("click on me");
 
         btn.setOnAction(new EventHandler<ActionEvent>() {
-
             @Override
-            public void handle(ActionEvent event) {
-                lbl.setText("Hello, World.");
+            public void handle(ActionEvent actionEvent) {
+                lbl.setText("welcom  to  guercifzone");
             }
         });
-
-        Group root = new Group();
-
-        root.getChildren().add(btn);
-        root.getChildren().add(lbl);
-        primaryStage.setScene(new Scene(root, 300, 250));
+        Group group = new Group();
+        group.getChildren().add(btn);
+        group.getChildren().add(lbl);
+        primaryStage.setScene(new Scene(group, 300, 250));
         primaryStage.show();
     }
 }

@@ -15,22 +15,22 @@ public class Labels_wrap extends Application {
 
     @Override
     public void start(Stage stage) {
-        Scene scene = new Scene(new Group());
-        stage.setTitle("Label Sample");
-        stage.setWidth(400);
-        stage.setHeight(180);
+Scene scene = new Scene(new Group());
+stage.setTitle(" label wrap");
+stage.setWidth(400);
+stage.setHeight(180);
 
-        HBox hbox = new HBox();
+HBox  hBox = new HBox();
 
-        Label label1 = new Label("Search long long long long long long long long long ");
-        label1.setPrefWidth(100);
-        label1.setWrapText(true);
+        Label lbl1 = new Label("Search guercifzone guercifzone guercifzone guercifzone guercifzone  guercifzone  guercifzone  guercifzone ");
 
-        hbox.setSpacing(10);
-        hbox.getChildren().add((label1));
-        ((Group) scene.getRoot()).getChildren().add(hbox);
+       lbl1.setPrefWidth(300);
+       lbl1.setWrapText(true);
 
-        stage.setScene(scene);
-        stage.show();
+       hBox.setSpacing(10);
+       hBox.getChildren().add(lbl1);
+        ((Group) scene.getRoot()).getChildren().add(hBox);
+stage.setScene(scene);
+stage.show();
     }
 }

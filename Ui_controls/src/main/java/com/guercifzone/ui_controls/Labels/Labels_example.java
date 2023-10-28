@@ -18,18 +18,19 @@ public class Labels_example extends Application {
 
     @Override
     public void start(Stage primaryStage) {
-        primaryStage.setTitle("ComboBoxSample");
+        primaryStage.setTitle("label example");
         Scene scene = new Scene(new Group(), 450, 250);
 
         Label label1 = new Label ("Label 1");
+        label1.setTranslateX(50);
         Label label2 = new Label ("Label 2");
         label2.setFont(new Font("Arial", 30));
         Label label3 = new Label ("Label 3");
         label3.setTextFill(Color.web("#0076a3"));
         Label label4 = new Label("Label 4");
         label4.setRotate(270);
-            Label label5  =new Label("Label5");
-            label5.setTranslateY(50);
+        Label label5  =new Label("Label5");
+        label5.setTranslateY(50);
 
 
         GridPane grid = new GridPane();
