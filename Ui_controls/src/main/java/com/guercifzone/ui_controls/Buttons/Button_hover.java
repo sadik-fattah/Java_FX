@@ -34,8 +34,8 @@ public class Button_hover extends Application {
                     @Override
                     public void handle(MouseEvent e) {
                         button1.setEffect(shadow);
-                        button1.setScaleX(1.5);
-                        button1.setScaleY(1.5);
+button1.setScaleX(1.5);
+button1.setScaleY(1.5);
                     }
                 });
 

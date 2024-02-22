@@ -27,18 +27,18 @@ public class Button_Graphic extends Application {
         VBox vbox = new VBox();
         vbox.setLayoutX(20);
         vbox.setLayoutY(20);
+Image image = new Image("https://png.pngtree.com/png-vector/20190115/ourmid/pngtree-vector-search-icon-png-image_320926.jpg",10,10,true,true);
+Button button1 = new Button("Search");
+button1.setGraphic(new ImageView(image));
+button1.setOnAction(new EventHandler<ActionEvent>() {
+    @Override
+    public void handle(ActionEvent actionEvent) {
+        System.out.println("ok search looking ");
+    }
+});
 
-        Image image = new Image("https://png.pngtree.com/png-vector/20190115/ourmid/pngtree-vector-search-icon-png-image_320926.jpg",10,10,true,true);
-        Button button1 = new Button("Search");
-        button1.setGraphic(new ImageView(image));
 
-        button1.setOnAction(new EventHandler<ActionEvent>() {
-            @Override public void handle(ActionEvent e) {
-                System.out.println("ok  search looking ");
-            }
-        });
-
-        vbox.getChildren().add(button1);
+       vbox.getChildren().add(button1);
         vbox.setSpacing(10);
         ((Group)scene.getRoot()).getChildren().add(vbox);
 

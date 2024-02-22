@@ -25,9 +25,9 @@ public class Button_css extends Application {
         VBox vbox = new VBox();
         vbox.setLayoutX(20);
         vbox.setLayoutY(20);
+Button button1 = new Button("btn cadcass style shet");
+button1.setStyle("-fx-font: arial; -fx-base: #b6e7c9;");
 
-        Button button1 = new Button("Btn cadcass  style sheet");
-        button1.setStyle("-fx-font: 22 arial; -fx-base: #b6e7c9;");
         button1.setOnAction(new EventHandler<ActionEvent>() {
             @Override public void handle(ActionEvent e) {
                 System.out.println("Btn styling ");
